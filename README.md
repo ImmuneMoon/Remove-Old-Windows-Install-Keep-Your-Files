@@ -21,6 +21,8 @@ Download the PDF above, or read on below. Start with **Before You Start** and wo
 
 If you're staying on Windows 10, read the [Windows 10 Community Support Guide](https://github.com/ImmuneMoon/Windows-10-Community-Support-Guide) before you install.
 
+Moving to a whole new PC or motherboard? Start with [Move Windows to a New PC](https://github.com/ImmuneMoon/Move-Windows-to-a-New-PC). It helps you check whether your license can move and pick the right route.
+
 ---
 
 <!-- guide:start -->
