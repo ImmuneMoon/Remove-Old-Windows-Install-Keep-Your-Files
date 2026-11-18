@@ -230,7 +230,7 @@ Only delete partitions of type **System**, **Reserved**, or **Recovery**. **Neve
 ## Another Way: If You Have Somewhere to Put Everything
 If you can borrow an external drive big enough for your files, wiping the old drive is cleaner. It removes every hidden partition and permission problem in one go.
 
-1. Copy your files to the external drive, then open a few to confirm they copied properly.
+1. Copy your files to the external drive, then open a few to confirm they copied properly. For a big drive, [Move Windows to a New PC](https://github.com/ImmuneMoon/Move-Windows-to-a-New-PC#10-copy-your-data-drives-to-new-drives) shows how to copy a whole drive with `robocopy`, including the folder links it skips.
 2. In an administrator Command Prompt, run `diskpart`, `list disk`, and `select disk` with your **old** drive's number, then run `clean` and `exit`. This erases the whole drive.
 3. In **Disk Management**, initialize the disk as **GPT** when asked. Right-click the unallocated space, choose **New Simple Volume**, and follow the prompts.
 4. Copy your files back.
